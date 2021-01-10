@@ -1,4 +1,4 @@
-## Your Name:
+## Your Name: Kareem Dana - Homework 1 Solution
 
 # CIDM 3312 Homework 1 - C# Review
 The objective of this homework is to review C# classes, objects, and lists which are vital components to this course. This homework also introduces the concept of relationships between classes. You will create a class that contains a list of objects from another class.
