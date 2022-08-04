@@ -7,7 +7,7 @@ namespace Homework1.Models
     class Patient
     {
         // Properties for FirstName and LastName
-        public string FirstName {get; set;}
-        public string LastName {get; set;}
+        public string FirstName {get; set;} = string.Empty;
+        public string LastName {get; set;} = string.Empty;
     }
 }
