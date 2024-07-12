@@ -12,22 +12,18 @@ The objective of this homework is to review C# classes, objects, methods, and li
      - This is a **challenging task**. We have not used a list within a class before. Reach out on slack for help.
 5. Both `Product.cs` and `Order.cs` should be in the same namespace following the the correct naming convention. Don't forget the `using` keyword in `Program.cs` to ensure the classes are accessible.
 6. In `Program.cs`, create FOUR products based on this table:
-
    | Product Name | Product Description       | Price          |
    | ------------ | ------------------------- | -------------- |
    | MindSync     | Neural Implant Device     | $1,995.99      |
    | Seraphine    | AI Assistant              | $200.00        |
    | SoulSear     | Military Grade Death Ray  | $4,300,000,000 |
    | PhantomClaw  | High Quality Gaming Mouse | $99.95         |
-
 7. Create THREE orders based on this table:
-
    | OrderId | CustomerName  | Products Ordered                |
    | ------- | ------------- | ------------------------------- |
    | 1       | US Government | SoulSear, MindSync, Seraphine   |
    | 2       | North Korea   | MindSync, SoulSear, PhantonClaw |
    | 3       | Kareem Dana   | Seraphine, PhantomClaw          |
-
    - This is a  **challenging task**. You have to add the corresponding product objects to the list of products for each order.
 8. Add all three orders to a list of orders. 
 9. In `Product.cs` add a `ToString()` method that returns a product in this format `MindSync - $1,995.99`.
