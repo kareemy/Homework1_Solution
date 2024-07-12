@@ -1,4 +1,4 @@
-## Your Name:
+## Your Name: Homework 1 Solution
 
 # CIDM 3312 Homework 1 - C# Review
 The objective of this homework is to review C# classes, objects, methods, and lists which are vital components to this course. This homework also introduces the concept of relationships between classes. You will create a class that contains a list of objects from another class.
@@ -7,10 +7,10 @@ The objective of this homework is to review C# classes, objects, methods, and li
 
 1. Start by cloning this assignment repository into VS Code.
 2. Create a new C# console app using the `dotnet new console` command.
-3. Model ThoughtTronix's products with a `Product.cs` class. The `Product` class should contain product name, description, and price properties.
-4. Model orders with an `Order.cs` class. The `Order` class should contain an OrderId, CustomerName, and **list of products** properties.
+3. Model ThoughtTronix's products with a `Product.cs` class in the Models/ folder. The `Product` class should contain product name, description, and price properties.
+4. Model orders with an `Order.cs` class in the Models/ folder. The `Order` class should contain an OrderId, CustomerName, and **list of products** properties.
      - This is a **challenging task**. We have not used a list within a class before. Reach out on slack for help.
-5. Both `Product.cs` and `Order.cs` should be in the same namespace following the the correct naming convention. Don't forget the `using` keyword in `Program.cs` to ensure the classes are accessible.
+5. Resolve all null warnings. Both `Product.cs` and `Order.cs` should be in the same namespace following the correct naming convention. Don't forget the `using` keyword in `Program.cs` to ensure the classes are accessible.
 6. In `Program.cs`, create FOUR products based on this table:
    | Product Name | Product Description       | Price          |
    | ------------ | ------------------------- | -------------- |
@@ -29,24 +29,24 @@ The objective of this homework is to review C# classes, objects, methods, and li
 9. In `Product.cs` add a `ToString()` method that returns a product in this format `MindSync - $1,995.99`.
 10. In `Order.cs` add a `ToString()` method that returns an order in this format `Order #1 - US Government`.
 11. Back in `Program.cs`, loop through your list of orders and display all orders and products utilizing the `ToString()` methods. Within the loop, add the total cost of each order and display that as well. See the following output for an example:
-     ```
-     Order #1 - US Government
-             SoulSear - $4,300,000,000.00
-             MindSync - $1,995.99        
-             Seraphine - $200.00
-     Order Total: $4,300,002,195.99      
-     
-     Order #2 - North Korea
-             MindSync - $1,995.99        
-             SoulSear - $4,300,000,000.00
-             PhantomClaw - $99.95        
-     Order Total: $4,300,002,095.94      
-     
-     Order #3 - Kareem Dana
-             Seraphine - $200.00
-             PhantomClaw - $99.95        
-     Order Total: $299.95
-     ```
+```
+Order #1 - US Government
+        SoulSear - $4,300,000,000.00
+        MindSync - $1,995.99        
+        Seraphine - $200.00
+Order Total: $4,300,002,195.99      
+
+Order #2 - North Korea
+        MindSync - $1,995.99        
+        SoulSear - $4,300,000,000.00
+        PhantomClaw - $99.95        
+Order Total: $4,300,002,095.94      
+
+Order #3 - Kareem Dana
+        Seraphine - $200.00
+        PhantomClaw - $99.95        
+Order Total: $299.95
+```
 12. Please remember to comment your code. Add small, one line comments explaining each task. Add more detailed comments ot highlight new things you learned and challenges you encountered and how you overcame them.
 
 ## Submit your assignment
