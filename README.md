@@ -12,6 +12,7 @@ The objective of this homework is to review C# classes, objects, methods, and li
      - This is a **challenging task**. We have not used a list within a class before. Reach out on slack for help.
 5. Both `Product.cs` and `Order.cs` should be in the same namespace following the the correct naming convention. Don't forget the `using` keyword in `Program.cs` to ensure the classes are accessible.
 6. In `Program.cs`, create FOUR products based on this table:
+   
    | Product Name | Product Description       | Price          |
    | ------------ | ------------------------- | -------------- |
    | MindSync     | Neural Implant Device     | $1,995.99      |
